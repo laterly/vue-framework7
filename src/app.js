@@ -2,6 +2,8 @@
 import Vue from 'vue';
 import axios from "axios";
 import { post, get } from "./libs/http";
+import routes from './routes.js'
+
 //定义全局变量
 Vue.prototype.$post = post;
 Vue.prototype.$get = get;
