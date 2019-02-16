@@ -1,5 +1,10 @@
 // Import Vue
 import Vue from 'vue';
+import axios from "axios";
+import { post, get } from "./libs/http";
+//定义全局变量
+Vue.prototype.$post = post;
+Vue.prototype.$get = get;
 
 // Import F7
 import Framework7 from 'framework7/framework7.esm.bundle.js';
